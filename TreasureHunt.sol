@@ -1,3 +1,6 @@
+//Hey! This Contract has a vulnerability as pointed out in https://www.reddit.com/r/Defcon/comments/8l6z20/badge_idea_solve_puzzles_enter_passphrase_into/dze3xj6/
+//Proposed solution is there too. Can you spot the problem here?
+
 pragma solidity ^0.4.20;
 
 contract TreasureHunt {
