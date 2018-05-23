@@ -16,6 +16,7 @@ contract TreasureHunt {
   function startHunt() public returns (bool) {
      require(msg.sender == developer);
      active = true;
+     return true;
    }
 
   function validate(string _answer) public returns (bool) {
